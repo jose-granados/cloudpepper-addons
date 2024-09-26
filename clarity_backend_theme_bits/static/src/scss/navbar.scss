@@ -41,6 +41,9 @@ body.o_web_client{
             .dropdown-item{
               padding: 5px 20px !important;
             }
+			span.dropdown-item:last-child{
+				display:none!important;
+			}
           }
         }
         .powered-by{
