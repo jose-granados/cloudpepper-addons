@@ -48,10 +48,11 @@ body.o_web_client{
         }
         &:hover{
           .powered-by{
-            display: block !important; 
+            display: none !important; 
             color: #fff;
             a{
               color: #aab6ff !important;
+			  display:none;
             } 
            }  
         }
