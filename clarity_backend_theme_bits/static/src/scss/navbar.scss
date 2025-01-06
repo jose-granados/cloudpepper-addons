@@ -41,9 +41,6 @@ body.o_web_client{
             .dropdown-item{
               padding: 5px 20px !important;
             }
-		span.dropdown-item:last-child{
-			display:none!important;
-		}
           }
         }
         .powered-by{
@@ -51,11 +48,10 @@ body.o_web_client{
         }
         &:hover{
           .powered-by{
-            display: none !important; 
+            display: block !important; 
             color: #fff;
             a{
               color: #aab6ff !important;
-			  display:none;
             } 
            }  
         }
